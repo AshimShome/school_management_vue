@@ -1,0 +1,86 @@
+.fz-12 {
+    font-size: 12px !important;
+}
+.fz-13 {
+    font-size: 13px !important;
+}
+.fz-14 {
+    font-size: 14px !important;
+}
+.fz-15 {
+    font-size: 15px !important;
+}
+.fz-20 {
+    font-size: 20px !important;
+}
+.hw-50 {
+    height: 50px;
+    width: 50px;
+}
+.modal-hidee {
+    display: block;
+    background: rgb(0 0 0 / 40%);
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.r-0 {
+    right: 0;
+}
+.mh-100vh {
+    min-height: 100vh;
+}
+.w-200 {
+    width: 200px;
+}
+.h-50 {
+    height: 50px !important;
+}
+.h-20 {
+    height: 20px;
+}
+.w-40 {
+    width: 40px;
+}
+.h-58 {
+    height: 58px;
+}
+.mx-h-50 {
+    max-height: 50px;
+}
+.mx-w-50 {
+    max-width: 50px;
+}
+.h-300 {
+    height: 300px !important;
+}
+.h-40 {
+    height: 40px;
+}
+
+.clock {
+    margin: 20px 0;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+    .navbar-dark .navbar-toggler {
+        position: absolute;
+        right: 15px;
+        top: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-dark .navbar-toggler {
+        top: 12px;
+    }
+}

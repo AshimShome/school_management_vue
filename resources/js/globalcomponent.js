@@ -1,0 +1,55 @@
+import Vue from 'vue';
+
+Vue.component('app', require('./App.vue').default);
+Vue.component('pagination', require('laravel-vue-pagination'));
+Vue.component('base-label', require('./components/global/form/label/BaseLabel.vue').default);
+Vue.component('base-input', require('./components/global/form/input/BaseInput.vue').default);
+Vue.component('base-textarea', require('./components/global/form/input/BaseTextarea.vue').default);
+Vue.component('base-select', require('./components/global/form/input/BaseSelect.vue').default);
+Vue.component('base-select', require('./components/global/form/input/BaseSelect.vue').default);
+Vue.component('base-button', require('./components/global/form/button/BaseButton.vue').default);
+
+Vue.component('NotFound', require('./components/global/NotFound.vue').default);
+Vue.component('Back', require('./components/Back.vue').default);
+Vue.component('Clock', require('./components/Clock.vue').default);
+Vue.component('Loader', require('./components/Loader.vue').default);
+
+// Svg Icons Component
+Vue.component('icon-check', require('./components/global/icons/CheckIcon.vue').default);
+Vue.component('icon-plus', require('./components/global/icons/PlusIcon.vue').default);
+Vue.component('icon-loading', require('./components/global/icons/LoadingIcon.vue').default);
+Vue.component('icon-left-arrow', require('./components/global/icons/LeftArrowIcon.vue').default);
+Vue.component('icon-bell', require('./components/global/icons/BellIcon.vue').default);
+Vue.component('icon-big-bell', require('./components/global/icons/BellBigIcon.vue').default);
+Vue.component('icon-logout', require('./components/global/icons/LogoutIcon.vue').default);
+Vue.component('icon-user', require('./components/global/icons/UserIcon.vue').default);
+Vue.component('icon-users', require('./components/global/icons/UsersIcon.vue').default);
+Vue.component('icon-home', require('./components/global/icons/HomeIcon.vue').default);
+Vue.component('icon-note', require('./components/global/icons/NoteIcon.vue').default);
+Vue.component('icon-book', require('./components/global/icons/BookIcon.vue').default);
+Vue.component('icon-edit-circle', require('./components/global/icons/EditCircleIcon.vue').default);
+Vue.component('icon-report', require('./components/global/icons/ReportIcon.vue').default);
+Vue.component('icon-send', require('./components/global/icons/SendIcon.vue').default);
+Vue.component('icon-cog', require('./components/global/icons/CogIcon.vue').default);
+Vue.component('icon-lock', require('./components/global/icons/LockIcon.vue').default);
+Vue.component('icon-cube', require('./components/global/icons/CubeIcon.vue').default);
+Vue.component('icon-calculator', require('./components/global/icons/CalculatorIcon.vue').default);
+Vue.component('icon-event', require('./components/global/icons/EventIcon.vue').default);
+Vue.component('icon-pin', require('./components/global/icons/PinIcon.vue').default);
+Vue.component('icon-divide', require('./components/global/icons/DivideIcon.vue').default);
+Vue.component('icon-eye', require('./components/global/icons/EyeIcon.vue').default);
+Vue.component('icon-download', require('./components/global/icons/DownloadIcon.vue').default);
+Vue.component('icon-login', require('./components/global/icons/LoginIcon.vue').default);
+Vue.component('icon-eye-on', require('./components/global/icons/EyeOnIcon.vue').default);
+Vue.component('icon-eye-off', require('./components/global/icons/EyeOffIcon.vue').default);
+Vue.component('icon-cross', require('./components/global/icons/CrossIcon.vue').default);
+Vue.component('icon-cash', require('./components/global/icons/CashIcon.vue').default);
+Vue.component('icon-wallet', require('./components/global/icons/WalletIcon.vue').default);
+Vue.component('icon-graduation', require('./components/global/icons/GraduationIcon.vue').default);
+Vue.component('icon-pen-paper', require('./components/global/icons/PenPaperIcon.vue').default);
+Vue.component('icon-male', require('./components/global/icons/MaleIcon.vue').default);
+Vue.component('icon-female', require('./components/global/icons/FemaleIcon.vue').default);
+Vue.component('icon-edit', require('./components/global/icons/EditIcon.vue').default);
+Vue.component('icon-trash', require('./components/global/icons/TrashIcon.vue').default);
+Vue.component('icon-dot', require('./components/global/icons/DotIcon.vue').default);
+Vue.component('icon-sync', require('./components/global/icons/SyncIcon.vue').default);
